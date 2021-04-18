@@ -1,5 +1,5 @@
 def fizz_buzz(node):
-    """Utility Helper function for fizzbuzz conditionals."""
+    """Helper function for fizzbuzz conditionals."""
     if node.val % 5 == 0 and node.val % 3 == 0:
         node.val = 'FizzBuzz'
         return node.val
