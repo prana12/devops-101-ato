@@ -5,7 +5,7 @@ resources:
       gitProvider: my_github
       path: prana12/devops-101-ato
       branches:
-        include: master
+        include: main
   - name: myBuildInfo
     type: BuildInfo
     configuration:
